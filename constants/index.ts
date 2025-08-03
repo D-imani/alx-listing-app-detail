@@ -26,14 +26,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Bali",
       country: "Indonesia"
     },
-    reviews: [
-    {
-      name: "Jane Doe",
-      avatar: "/avatars/jane.jpg",
-      rating: 5,
-      comment: "Amazing experience. Highly recommended!"
-    }
-  ],
     rating: 4.89,
     category: ["Luxury Villa", "Pool", "Free Parking"],
     price: 3200,
@@ -52,13 +44,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Colorado",
       country: "USA"
     },
-    reviews:[{
-      name: "Jane Doe",
-      avatar: "/avatars/jane.jpg",
-      rating: 5,
-      comment: "Amazing experience. Highly recommended!"
-    }
-  ],
     rating: 4.70,
     category: ["Mountain View", "Fireplace", "Self Checkin"],
     price: 1800,
@@ -77,13 +62,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "California",
       country: "USA"
     },
-    reviews: [ {
-      name: "Jane Doe",
-      avatar: "/avatars/jane.jpg",
-      rating: 5,
-      comment: "Amazing experience. Highly recommended!"
-    }
-  ],
     rating: 4.92,
     category: ["Desert View", "Pet Friendly", "Self Checkin"],
     price: 1500,
@@ -102,13 +80,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "New York",
       country: "USA"
     },
-    reviews: [ {
-      name: "Jane Doe",
-      avatar: "/avatars/jane.jpg",
-      rating: 5,
-      comment: "Amazing experience. Highly recommended!"
-    }
-  ],
     rating: 4.85,
     category: ["City View", "Free WiFi", "24h Checkin"],
     price: 4500,
@@ -127,13 +98,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Otago",
       country: "New Zealand"
     },
-     reviews : [ {
-      name: "John Smith",
-      avatar: "/avatars/john.jpg",
-      rating: 4,
-      comment: "Nice location, but the Wi-Fi was slow."
-    }
-  ],
     rating: 4.77,
     category: ["Riverside", "Private Dock", "Free Kayaks"],
     price: 2800,
@@ -152,13 +116,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Bali",
       country: "Indonesia"
     },
-    reviews : [ {
-      name: "John Smith",
-      avatar: "/avatars/john.jpg",
-      rating: 4,
-      comment: "Nice location, but the Wi-Fi was slow."
-    }
-  ],
     rating: 4.95,
     category: ["Beachfront", "Private Pool", "Chef Service"],
     price: 5000,
@@ -177,13 +134,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Alberta",
       country: "Canada"
     },
-    reviews : [{
-      name: "John Smith",
-      avatar: "/avatars/john.jpg",
-      rating: 4,
-      comment: "Nice location, but the Wi-Fi was slow."
-    }
-  ],
     rating: 4.65,
     category: ["Lakeside", "Mountain View", "Hiking Trails"],
     price: 2300,
@@ -202,13 +152,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Surat Thani",
       country: "Thailand"
     },
-    reviews : [{
-      name: "John Smith",
-      avatar: "/avatars/john.jpg",
-      rating: 4,
-      comment: "Nice location, but the Wi-Fi was slow."
-    }
-  ],
     rating: 4.80,
     category: ["Garden", "Free Parking", "Self Checkin"],
     price: 2750,
@@ -227,13 +170,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Berlin",
       country: "Germany"
     },
-    reviews : [{
-      name: "John Smith",
-      avatar: "/avatars/john.jpg",
-      rating: 4,
-      comment: "Nice location, but the Wi-Fi was slow."
-    }
-  ],
     rating: 4.60,
     category: ["City Center", "Free WiFi", "24h Checkin"],
     price: 2000,
@@ -252,13 +188,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "British Columbia",
       country: "Canada"
     },
-    reviews : [{
-      name: "John Smith",
-      avatar: "/avatars/john.jpg",
-      rating: 4,
-      comment: "Nice location, but the Wi-Fi was slow."
-    }
-  ],
     rating: 4.72,
     category: ["Secluded", "Hot Tub", "Self Checkin"],
     price: 2600,
@@ -277,13 +206,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Salerno",
       country: "Italy"
     },
-    reviews : [{
-      name: "John Smith",
-      avatar: "/avatars/john.jpg",
-      rating: 4,
-      comment: "Nice location, but the Wi-Fi was slow."
-    }
-  ],
     rating: 4.93,
     category: ["Cliffside", "Infinity Pool", "Sea View"],
     price: 6000,
@@ -301,13 +223,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       state: "Noosa",
       city: "Queensland",
       country: "Australia"
-    },reviews : [{
-      name: "John Smith",
-      avatar: "/avatars/john.jpg",
-      rating: 4,
-      comment: "Nice location, but the Wi-Fi was slow."
-    }
-  ],
+    },
     rating: 4.83,
     category: ["Beachfront", "Pet Friendly", "Free Parking"],
     price: 3400,
@@ -326,13 +242,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Tuscany",
       country: "Italy"
     },
-    reviews : [{
-      name: "John Smith",
-      avatar: "/avatars/john.jpg",
-      rating: 4,
-      comment: "Nice location, but the Wi-Fi was slow."
-    } 
-  ],
     rating: 4.67,
     category: ["Historical", "Free Breakfast", "Self Checkin"],
     price: 2700,
@@ -351,13 +260,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Tokyo",
       country: "Japan"
     },
-    reviews : [{
-      name: "John Smith",
-      avatar: "/avatars/john.jpg",
-      rating: 4,
-      comment: "Nice location, but the Wi-Fi was slow."
-    }
-  ],
     rating: 4.81,
     category: ["City Center", "Free WiFi", "Public Transport"],
     price: 2200,
@@ -376,13 +278,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Mara",
       country: "Tanzania"
     },
-    reviews : [{
-      name: "John Smith",
-      avatar: "/avatars/john.jpg",
-      rating: 4,
-      comment: "Nice location, but the Wi-Fi was slow."
-    }
-  ],
     rating: 4.97,
     category: ["Safari", "Guided Tours", "Free Breakfast"],
     price: 4500,
@@ -401,13 +296,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Gloucestershire",
       country: "UK"
     },
-    reviews : [{
-      name: "John Smith",
-      avatar: "/avatars/john.jpg",
-      rating: 4,
-      comment: "Nice location, but the Wi-Fi was slow."
-    }
-  ],
     rating: 4.58,
     category: ["Countryside", "Fireplace", "Self Checkin"],
     price: 1800,
@@ -426,13 +314,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Île-de-France",
       country: "France"
     },
-    reviews : [{
-      name: "John Smith",
-      avatar: "/avatars/john.jpg",
-      rating: 4,
-      comment: "Nice location, but the Wi-Fi was slow."
-    }
-  ],
     rating: 4.86,
     category: ["Riverfront", "Private Garden", "Self Checkin"],
     price: 5000,
@@ -451,13 +332,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Valais",
       country: "Switzerland"
     },
-     reviews: [{
-      name: "Jane Doe",
-      avatar: "/avatars/jane.jpg",
-      rating: 5,
-      comment: "Amazing experience. Highly recommended!"
-    }
-  ],
     rating: 4.75,
     category: ["Mountain View", "Ski Access", "Fireplace"],
     price: 3900,
@@ -476,14 +350,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Victoria",
       country: "Seychelles"
     },
-      reviews: [
-    {
-      name: "Jane Doe",
-      avatar: "/avatars/jane.jpg",
-      rating: 5,
-      comment: "Amazing experience. Highly recommended!"
-    }
-  ],
     rating: 4.98,
     category: ["Beachfront", "Private Pool", "Chef Service"],
     price: 6500,
@@ -502,13 +368,6 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       city: "Western Cape",
       country: "South Africa"
     },
-      reviews: [{
-      name: "Jane Doe",
-      avatar: "/avatars/jane.jpg",
-      rating: 5,
-      comment: "Amazing experience. Highly recommended!"
-    }
-  ],
     rating: 4.78,
     category: ["Ocean View", "Private Pool", "Self Checkin"],
     price: 4100,
