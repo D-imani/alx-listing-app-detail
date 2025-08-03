@@ -11,6 +11,12 @@ export interface PropertyProps{
     city: string;
     country: string;
   };
+  reviews: {
+    name: string;
+    avatar: string;
+    rating: number;
+    comment: string;
+  }[];
   rating: number;
   category: string[];
   price: number;
@@ -21,6 +27,7 @@ export interface PropertyProps{
   };
   image: string;
   discount: string;
+  description? : string;
 }
 export interface PillProps {
   label: string;
